@@ -1,0 +1,124 @@
+<div class="main-content">
+  <div class="container-fluid">
+
+    Ubicaciones disponibles por tipo
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="card card-stats">
+          <div class="card-header card-header-warning card-header-icon">
+            <div class="card-icon">
+              <i class="material-icons">expand</i>
+            </div>
+            <p class="card-category">Altura Base 1.0</p>
+            <h3 class="card-title">69</h3>
+          </div>
+          <div class="card-footer">
+            <div class="stats">
+              <i class="material-icons">update</i> actualizado
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="card card-stats">
+          <div class="card-header card-header-warning card-header-icon">
+            <div class="card-icon">
+              <i class="material-icons">expand</i>
+            </div>
+            <p class="card-category">Altura Media 1.5</p>
+            <h3 class="card-title">1</h3>
+          </div>
+          <div class="card-footer">
+            <div class="stats">
+              <i class="material-icons">update</i> actualizado
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="card card-stats">
+          <div class="card-header card-header-warning card-header-icon">
+            <div class="card-icon">
+              <i class="material-icons">expand</i>
+            </div>
+            <p class="card-category">Altura Máxima 1.5</p>
+            <h3 class="card-title">0</h3>
+          </div>
+          <div class="card-footer">
+            <div class="stats">
+              <i class="material-icons">update</i> actualizado
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-12 mr-auto ml-auto">
+        <!--      Wizard container        -->
+        <div class="wizard-container">
+          <div class="card card-wizard" data-color="orange" id="wizardProfile">
+            <form [formGroup]="type" action="" method="">
+              <!--        You can switch " data-color="primary" "  with one of the next bright colors: "green", "orange", "red", "blue"       -->
+              <div class="card-header text-center">
+                <h3 class="card-title">
+                  Reserva de posiciones
+                </h3>
+                <h5 class="card-description"></h5>
+              </div>
+              <div class="wizard-navigation">
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#about" data-toggle="tab" role="tab">
+                      Reserva de posiciones
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#account" data-toggle="tab" role="tab">
+                      Información Adicional
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#address" data-toggle="tab" role="tab">
+                      Selección horas disponibles
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <div class="tab-content">
+                  <div class="tab-pane active" id="about">
+                    <h5 class="info-text"> En construcción</h5>
+                     
+                  </div>
+
+                  <div class="tab-pane" id="account">
+                     <h5 class="info-text"> En construcción</h5>
+                  
+                  </div>
+                  <div class="tab-pane" id="address">
+                    <h5 class="info-text"> En construcción</h5>
+                </div>
+              </div>
+            </div>
+              <div class="card-footer">
+                <div class="mr-auto">
+                  <input type="button" class="btn btn-previous btn-fill btn-default btn-wd disabled" name="previous" value="Volver">
+                </div>
+                <div class="ml-auto">
+                  <input type="button" class="btn btn-next btn-fill btn- btn-wd" name="next" value="Siguiente">
+                  <input type="button" class="btn btn-finish btn-fill btn-info btn-wd" name="finish" value="Finalizar" style="display: none;">
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- wizard container -->
+      </div>
+    </div>
+  </div>
+</div>
