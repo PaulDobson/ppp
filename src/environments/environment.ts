@@ -4,5 +4,10 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  url_bizagi_we:'http://198.37.118.53/GESTION_PPP/webservices/workflowenginesoa.asmx',
+  url_bizagi_em:'http://198.37.118.53/GESTION_PPP/webservices/entitymanagersoa.asmx',
+  usuario_creador_caso:'pdobson',
+  domain:'payperpallet.cl',
+  key:'Fewrwerwe5gggjtut76ugfd.ppp28'
 };

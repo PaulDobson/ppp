@@ -64,7 +64,7 @@ export class AdminLayoutComponent implements OnInit, AfterViewInit {
         });
 
         this.navItems = [
-          { type: NavItemType.NavbarLeft, title: 'Dashboard', iconClass: 'fa fa-dashboard' },
+          { type: NavItemType.NavbarLeft, title: 'Pay Per Pallet', iconClass: 'fa fa-dashboard' },
 
           {
             type: NavItemType.NavbarRight,

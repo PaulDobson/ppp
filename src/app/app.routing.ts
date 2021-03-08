@@ -1,54 +1,40 @@
 import { Routes } from '@angular/router';
+import { AuthGuard } from './auth/services/auth.guard';
 
 import { AdminLayoutComponent } from './layouts/admin/admin-layout.component';
 import { AuthLayoutComponent } from './layouts/auth/auth-layout.component';
+import { EmpresaComponent } from './perfil/empresa/empresa.component';
+import { UsuarioComponent } from './perfil/usuario/usuario.component';
 
 export const AppRoutes: Routes = [
     {
       path: '',
-      redirectTo: 'dashboard',
       pathMatch: 'full',
+      redirectTo: 'inicio',
     }, {
       path: '',
       component: AdminLayoutComponent,
+      canActivate: [ AuthGuard ],
       children: [
           {
-        path: '',
-        loadChildren: './dashboard/dashboard.module#DashboardModule'
-    }, {
-        path: 'components',
-        loadChildren: './components/components.module#ComponentsModule'
-    }, {
-        path: 'forms',
-        loadChildren: './forms/forms.module#Forms'
-    }, {
-        path: 'tables',
-        loadChildren: './tables/tables.module#TablesModule'
-    }, {
-        path: 'maps',
-        loadChildren: './maps/maps.module#MapsModule'
-    }, {
-        path: 'widgets',
-        loadChildren: './widgets/widgets.module#WidgetsModule'
-    }, {
-        path: 'charts',
-        loadChildren: './charts/charts.module#ChartsModule'
-    }, {
-        path: 'calendar',
-        loadChildren: './calendar/calendar.module#CalendarModule'
-    }, {
-        path: '',
-        loadChildren: './userpage/user.module#UserModule'
-    }, {
-        path: '',
-        loadChildren: './timeline/timeline.module#TimelineModule'
+        path: 'inicio',
+        loadChildren: './inicio/inicio.module#InicioModule'
+    } ,{
+        path: 'storage',
+        loadChildren: './storage/storage.module#StorageModule'
+    },{
+        path: 'perfil',
+        component:UsuarioComponent
+    },{
+        path: 'empresa',
+        component:EmpresaComponent
     }
   ]}, {
       path: '',
       component: AuthLayoutComponent,
       children: [{
-        path: 'pages',
-        loadChildren: './pages/pages.module#PagesModule'
+        path: 'auth',
+        loadChildren: './auth/auth.module#AuthModule'
       }]
     }
 ];

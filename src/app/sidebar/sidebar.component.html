@@ -21,28 +21,23 @@
                 <div class="user-info">
                     <a data-toggle="collapse" href="#collapseExample" class="collapsed">
                         <span>
-                            Nombre Usuario
+                            {{usuario}}
                             <b class="caret"></b>
                         </span>
                     </a>
                     <div class="collapse" id="collapseExample">
                         <ul class="nav">
+                            
                             <li class="nav-item">
-                                <a href="javascript:void(0)" class="nav-link">
-                                    <span class="sidebar-mini">MP</span>
-                                    <span class="sidebar-normal">Mi Perfil</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="javascript:void(0)" class="nav-link">
+                                <a routerLink="perfil" routerLinkActive class="nav-link">
                                     <span class="sidebar-mini">EP</span>
                                     <span class="sidebar-normal">Editar Perfil</span>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="javascript:void(0)" class="nav-link">
-                                    <span class="sidebar-mini">C</span>
-                                    <span class="sidebar-normal">Configurar</span>
+                                <a routerLink="empresa" class="nav-link">
+                                    <span class="sidebar-mini">E</span>
+                                    <span class="sidebar-normal">Datos Empresa</span>
                                 </a>
                             </li>
                         </ul>

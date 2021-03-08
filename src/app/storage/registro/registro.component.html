@@ -1,0 +1,36 @@
+
+<div *ngIf="!habilitado" class="main-content">
+    <div class="container-fluid">
+
+
+        <div class="row">
+            <div class="col-md-8">
+        <div class="card" >
+            <div class="card-header card-header-icon card-header-danger">
+                <div class="card-icon">
+                    <i class="material-icons">pending_actions</i>
+                  </div>
+                <h4 class="card-title">En espera de aprobación</h4>
+              
+            </div>
+
+            <div class="card-body">
+ 
+              <h5 class="card-subtitle mb-2 text-muted">Validación de Enrolamiento</h5>
+              <p class="card-text">Su proceso de enrolamiento está en curso. Una vez que tengamos la aprobación usted podrá realizar esta actividad</p>
+              <a href="#" class="card-link">Le notificaremos en breves momentos al correo registrado en el portal</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<div *ngIf="habilitado" class="main-content">
+    <div class="container-fluid">
+
+   
+
+    </div>
+</div>

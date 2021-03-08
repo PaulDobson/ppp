@@ -1,0 +1,231 @@
+<div class="main-content">
+    <div class="container-fluid">
+    <form [formGroup]= "perfilGroup" (ngSubmit)="UpdateEmpresa()" >
+      
+      
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header card-header-icon card-header-info">
+              <div class="card-icon">
+                <i class="material-icons">apartment</i>
+              </div>
+              <h4 class="card-title">Datos Empresa
+                <small class="category"></small>
+              </h4>
+            </div>
+            <div class="card-body">
+            
+                <div class="row">
+                    <div class="col-md-6">
+                     
+                        <mat-form-field class="width-70">
+                          <input matInput type="text" placeholder="Rut Empresa" maxlength=10 minlength=8 formControlName="RutEmpresa" required (blur)="buscarEmpresa()" >
+                          <mat-error *ngIf="perfilGroup.get('RutEmpresa').invalid">{{getRutEmpresaErrorMessage()}}</mat-error>
+                        </mat-form-field>
+                    
+                    </div>
+
+                    <div class="col-md-6">
+                     
+                      <mat-form-field class="width-70">
+                        <input matInput type="email" placeholder="Correo electrónico Empresa DTE" formControlName="CorreoElectronicoEmpresa" required>
+                        <mat-error *ngIf="perfilGroup.get('CorreoElectronicoEmpresa').invalid">Debe ingresar un correo válido</mat-error>
+                      </mat-form-field>
+                  
+                  </div>
+
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6">
+                   
+                      <mat-form-field class="width-70">
+                        <input matInput type="text" placeholder="Nombre o Razón Social" formControlName="NombreoRazonSocial" required>
+                        <mat-error *ngIf="perfilGroup.get('NombreoRazonSocial').invalid">Debe ingresar un Nombre válido</mat-error>
+                      </mat-form-field>
+                  
+                  </div>
+
+                  <div class="col-md-6">
+                   
+                    <mat-form-field class="width-70">
+                      <input matInput type="text" placeholder="Teléfono Fijo o Móvil" formControlName="TelefonoFijooMovil" required>
+                      <mat-error *ngIf="perfilGroup.get('TelefonoFijooMovil').invalid">Largo de Numeración es de 9 dígitos tanto para Teléfono Fijo (ejemplo:223603600) como Celular (ejemplo:976682373)</mat-error>
+                    </mat-form-field>
+                
+                </div>
+
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                 
+                    <mat-form-field class="width-70">
+                      <input matInput type="text" placeholder="Dirección Comercial" formControlName="DireccionComercial" required>
+                    </mat-form-field>
+                
+                </div>
+
+                <div class="col-md-6">
+                 
+                  <mat-form-field class="width-70">
+                    <input matInput type="text" placeholder="Nombre contacto principal" formControlName="NombreContactoPrincipal" required>
+                    <mat-error *ngIf="perfilGroup.get('NombreContactoPrincipal').invalid">Debe ingresar un Nombre válido</mat-error>
+                  </mat-form-field>
+              
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+               
+                <mat-form-field  class="width-70" >
+                  <mat-label>Región</mat-label>
+                  <mat-select required formControlName="Region" (selectionChange)="seleccionRegion()">
+                    <mat-option>--</mat-option>
+                    <mat-option *ngFor="let region of listadoRegiones" [value]="region.CodRegion">
+                      {{region.DescRegion}}
+                    </mat-option>
+                  </mat-select>
+  
+                </mat-form-field>
+              
+              </div>
+
+              <div class="col-md-6">
+               
+                <mat-form-field class="width-70">
+                  <input matInput type="email" placeholder="Correo contacto comercial" formControlName="CorreoContactoComercial" required>
+                </mat-form-field>
+            
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+             
+              <mat-form-field  class="width-70" >
+                <mat-label>Provincia</mat-label>
+                <mat-select required formControlName="Provincia" (selectionChange)="seleccionProvincia()">
+                  <mat-option>--</mat-option>
+                  <mat-option *ngFor="let prov of listadoProvincias" [value]="prov.CodProvincia">
+                    {{prov.DescProvincia}}
+                  </mat-option>
+                </mat-select>
+
+              </mat-form-field>
+            
+            </div>
+
+            <div class="col-md-6">
+             
+              <mat-form-field class="width-70">
+                <input matInput type="text" placeholder="Télefono Fijo o Movil contacto principal" formControlName="TelefonoFijooMovilCont" required>
+              </mat-form-field>
+          
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+           
+            <mat-form-field  class="width-70" >
+              <mat-label>Comuna</mat-label>
+              <mat-select required formControlName="Comuna"  >
+                <mat-option>--</mat-option>
+                <mat-option *ngFor="let comuna of listadoComuna" [value]="comuna.CodComuna">
+                  {{comuna.DescComuna}}
+                </mat-option>
+              </mat-select>
+
+            </mat-form-field>
+          
+          </div>
+
+ 
+
+      </div>
+
+   
+               <!-- 
+                <button mat-raised-button type="submit" class="btn btn-info pull-right">Actualizar Datos</button>
+                <div class="clearfix"></div>
+              -->
+            </div>
+          </div>
+        </div>
+
+
+    
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header card-header-icon card-header-info">
+              <div class="card-icon">
+                <i class="material-icons">account_balance</i>
+              </div>
+              <h4 class="card-title">Datos Bancarios
+                <small class="category"></small>
+              </h4>
+            </div>
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-md-6">
+                <mat-form-field  class="width-70" >
+                  <mat-label>Banco</mat-label>
+                  <mat-select required formControlName="Banco" >
+                    <mat-option>--</mat-option>
+                    <mat-option *ngFor="let banco of listadoBancos" [value]="banco.CodBanco">
+                      {{banco.DescripcionBanco}}
+                    </mat-option>
+                  </mat-select>
+  
+                </mat-form-field>
+                </div>
+
+                <div class="col-md-6">
+                 
+                    <mat-form-field class="width-70">
+                      <input matInput type="text" placeholder="Número de Cuenta" formControlName="NumerodeCuenta" required>
+                    </mat-form-field>
+                
+                </div>
+
+                <div class="col-md-6">
+                 
+                 
+                    <mat-form-field  class="width-70" >
+                      <mat-label>Tipo de Cuenta</mat-label>
+                      <mat-select required formControlName="TipodeCuenta"  >
+                        <mat-option>--</mat-option>
+                        <mat-option *ngFor="let cuenta of listadoCuentas" [value]="cuenta.CodTipodeCuenta">
+                          {{cuenta.DescTipodeCuenta}}
+                        </mat-option>
+                      </mat-select>
+      
+                    </mat-form-field>
+                
+              
+              </div>
+
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button *ngIf="crearCaso" mat-raised-button type="submit" class="btn btn-info pull-right">Ingresar Solicitud</button>
+      <button mat-raised-button *ngIf="!crearCaso" type="submit"  class="btn btn-primary pull-right">Actualizar Datos</button>
+      <!-- form-->
+    </form>
+    </div>
+  </div>
+  

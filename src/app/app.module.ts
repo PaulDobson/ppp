@@ -3,8 +3,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { APP_BASE_HREF } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CommonModule ,DatePipe} from '@angular/common';
 
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatButtonModule} from '@angular/material/button';
@@ -49,6 +49,17 @@ import { AuthLayoutComponent } from './layouts/auth/auth-layout.component';
 
 import { AppRoutes } from './app.routing';
 
+
+// Ngrx
+import { StoreModule } from '@ngrx/store';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { appReducers } from './app.reducer';
+import { environment } from 'src/environments/environment';
+import { UsuarioComponent } from './perfil/usuario/usuario.component';
+import { EmpresaComponent } from './perfil/empresa/empresa.component';
+import { EffectsModule } from '@ngrx/effects';
+import { EffectsArray } from './index-effects';
+
 @NgModule({
   exports: [
     MatAutocompleteModule,
@@ -80,8 +91,12 @@ import { AppRoutes } from './app.routing';
     MatTabsModule,
     MatToolbarModule,
     MatTooltipModule,
-    MatNativeDateModule
-  ]
+    MatNativeDateModule,
+    FormsModule,
+    ReactiveFormsModule
+  ],
+  declarations: [],
+  imports: []
 })
 export class MaterialModule {}
 
@@ -89,25 +104,32 @@ export class MaterialModule {}
     imports:      [
         CommonModule,
         BrowserAnimationsModule,
-        FormsModule,
         RouterModule.forRoot(AppRoutes,{
           useHash: true
         }),
         HttpClientModule,
-
         MaterialModule,
         SidebarModule,
         NavbarModule,
         FooterModule,
-        FixedpluginModule
+        FixedpluginModule,
+        StoreModule.forRoot( appReducers ),
+        EffectsModule.forRoot( EffectsArray ),
+        StoreDevtoolsModule.instrument({
+      maxAge: 25, // Retains last 25 states
+      logOnly: environment.production, // Restrict extension to log-only mode
+    }),
     ],
     declarations: [
         AppComponent,
         AdminLayoutComponent,
-        AuthLayoutComponent
+        AuthLayoutComponent,
+        UsuarioComponent,
+        EmpresaComponent
     ],
     providers : [
-      MatNativeDateModule
+      MatNativeDateModule,
+      DatePipe,
     ],
     bootstrap:    [ AppComponent ]
 })

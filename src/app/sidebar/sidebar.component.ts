@@ -1,5 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
 import PerfectScrollbar from 'perfect-scrollbar';
+import { filter } from 'rxjs/operators';
+import { Subscription } from 'rxjs/Subscription';
+import { AppState } from '../app.reducer';
 
 declare const $: any;
 
@@ -22,19 +26,19 @@ export interface ChildrenItems {
 
 //Menu Items
 export const ROUTES: RouteInfo[] = [{
-        path: '/dashboard',
+        path: '/inicio',
         title: 'Panel Control',
         type: 'link',
         icontype: 'dashboard'
     },{
-        path: '/forms',
+        path: '/storage',
         title: 'Almacenaje',
         type: 'sub',
         icontype: 'apps',
-        collapse: 'forms',
+        collapse: 'storage',
         children: [
-            {path: 'wizard', title: 'Solicitud Envio', ab:'E'},
-            {path: 'extended', title: 'Solicitud Retiro', ab:'R'},
+            {path: 'registro', title: 'Completar Registro', ab:'CR'},
+            {path: 'retiro', title: 'Solicitud Retiro', ab:'SR'},
         ]
     } 
 ];
@@ -43,9 +47,20 @@ export const ROUTES: RouteInfo[] = [{
     templateUrl: 'sidebar.component.html',
 })
 
-export class SidebarComponent implements OnInit {
+export class SidebarComponent implements OnInit ,OnDestroy{
     public menuItems: any[];
     ps: any;
+    usuario:string;
+    userSubs: Subscription;
+
+    constructor(private store: Store<AppState> ){
+        
+    }
+    ngOnDestroy(): void {
+        this.userSubs.unsubscribe();
+    }
+
+
     isMobileMenu() {
         if ($(window).width() > 991) {
             return false;
@@ -59,6 +74,12 @@ export class SidebarComponent implements OnInit {
             const elemSidebar = <HTMLElement>document.querySelector('.sidebar .sidebar-wrapper');
             this.ps = new PerfectScrollbar(elemSidebar);
         }
+
+        this.userSubs = this.store.select('user')
+        .pipe(
+          filter( ({user}) => user != null )
+        )
+        .subscribe( ({ user }) => this.usuario = user.fullName );
     }
     updatePS(): void  {
         if (window.matchMedia(`(min-width: 960px)`).matches && !this.isMac()) {
