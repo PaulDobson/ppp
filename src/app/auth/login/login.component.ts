@@ -2,8 +2,9 @@ import { Component, ElementRef, OnInit } from "@angular/core";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { Router } from "@angular/router";
 import { Store } from "@ngrx/store";
-import { AppState } from "src/app/app.reducer";
-import { EmpresaAsociada, Usuario } from "src/app/models/User.models";
+import { AppState } from "../../app.reducer";
+import {  Usuario } from "../../models/User.models";
+import {EmpresaAsociada} from '../../models/entidades.bizagi.models'
 import { BizagiService } from "src/app/services/bizagi.service";
 import Swal from "sweetalert2";
 import { AuthService } from "../services/auth.service";
@@ -82,7 +83,7 @@ export class LoginComponent implements OnInit {
     this.authService.login(userName, password).subscribe((resp) => {
       if (resp) {
         let user: Usuario = resp;
-        this.authService.getEmpresa(user.RutEmpresaAsociada);
+        this.authService.getEmpresa(user.RutEmpresaFK);
         
         this.store.dispatch(setUser({ user }));
 

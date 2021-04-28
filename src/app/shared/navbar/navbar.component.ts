@@ -14,11 +14,7 @@ import {
   NavigationStart,
 } from "@angular/router";
 import { Subscription } from "rxjs/Subscription";
-import {
-  Location,
-  LocationStrategy,
-  PathLocationStrategy,
-} from "@angular/common";
+import { Location } from "@angular/common";
 import { AuthService } from "src/app/auth/services/auth.service";
 const misc: any = {
   navbar_menu_visible: 0,
@@ -47,7 +43,7 @@ export class NavbarComponent implements OnInit {
     private renderer: Renderer2,
     private element: ElementRef,
     private router: Router,
-    private auth:AuthService
+    private auth: AuthService
   ) {
     this.location = location;
     this.nativeElement = element.nativeElement;
@@ -240,9 +236,8 @@ export class NavbarComponent implements OnInit {
     return this.location.prepareExternalUrl(this.location.path());
   }
 
-  logout():void{
+  logout(): void {
     this.auth.logout();
-    this.router.navigate(['/auth/login']);
+    this.router.navigateByUrl("auth/login");
   }
-
 }

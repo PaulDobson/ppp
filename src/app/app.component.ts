@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Router, NavigationEnd, NavigationStart } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 
@@ -7,10 +7,15 @@ import { Subscription } from 'rxjs/Subscription';
     templateUrl: './app.component.html'
 })
 
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit, OnDestroy {
   private _router: Subscription;
 
   constructor( private router: Router ) {
+  }
+  ngOnDestroy(): void {
+    if( this._router ){
+      this._router.unsubscribe();
+    }
   }
 
     ngOnInit() {

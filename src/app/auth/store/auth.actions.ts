@@ -6,5 +6,18 @@ export const setUser = createAction(
     props<{ user: Usuario }>()
 );
 
+
+export const setEmpresaAsociada = createAction(
+    '[Auth] setEmpresaRelacionada',
+    props<{ rutEmpresa: string }>()
+);
+
+export const setHabilitadoParaServicio = createAction(
+    '[Auth] setHabilitadoParaServicio',
+    props<{ habilitado: boolean }>()
+);
+
+
+
 export const unSetUser = createAction('[Auth] unSetUser');
 

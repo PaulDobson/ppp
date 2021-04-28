@@ -1,7 +1,7 @@
 <div class="wrapper wrapper-full-page">
 
-    <div class="page-header login-page header-filter" filter-color="black"
-        style="background-image: url('./assets/img/fondo.webp'); background-size: cover; background-position: top center;">
+    <!-- <div class="page-header login-page header-filter" filter-color="black" style="background-image: url('assets/img/fondo-pallet.jpeg'); background-size: cover; background-position: top center;"> -->
+        <div class="page-header login-page header-filter" filter-color="white" >
         <div class="container">
             <div class="row">
                 <div class="col-md-10 ml-auto mr-auto">
@@ -9,7 +9,7 @@
 
                         <form class="form" [formGroup]= "registroGroup" (ngSubmit)="CreateUser()" autocomplete="off">
 
-                            <h2 class="card-title text-center">Registro Pay Per Pallet</h2>
+                            <h2 class="card-title text-center">Registro PAY PER PALLET</h2>
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-5 ml-auto">
@@ -18,10 +18,9 @@
                                                 <i class="material-icons">timeline</i>
                                             </div>
                                             <div class="description">
-                                                <h4 class="info-title"> Enrolamiento</h4>
+                                                <h4 class="info-title"> </h4>
                                                 <p class="description">
-                                                    Para registrate en nuestra plataforma, necesitamos tus siguientes
-                                                    datos.
+                                                    Para registrarte en nuestra plataforma, necesitamos los siguientes datos
                                                 </p>
                                             </div>
                                         </div>
@@ -33,7 +32,7 @@
                                                         <i class="material-icons">face</i>
                                                     </span>
                                                 </div>
-                                                <input type="text" class="form-control" placeholder="Nombres..." formControlName="fullName" required>
+                                                <input type="text" class="form-control" placeholder="Nombre completo" formControlName="fullName" required>
                                             </div>
                                         </div>
                                         <div class="form-group has-default">
@@ -43,7 +42,7 @@
                                                         <i class="material-icons">mail</i>
                                                     </span>
                                                 </div>
-                                                <input type="email" class="form-control" placeholder="Email..." formControlName="email" required>
+                                                <input type="email" class="form-control" placeholder="Email" formControlName="email" required>
                                             </div>
                                         </div>
 
@@ -54,7 +53,7 @@
                                                         <i class="material-icons">pin</i>
                                                     </span>
                                                 </div>
-                                                <input type="text" class="form-control" placeholder="Rut / DNI / Pasaporte / Otro" formControlName="rut" required>
+                                                <input type="text" class="form-control" placeholder="RUT / DNI / Pasaporte / Otro" formControlName="rut" required>
                                             </div>
                                         </div>
 
@@ -71,7 +70,7 @@
                                                         <i class="material-icons">person</i>
                                                     </span>
                                                 </div>
-                                                <input type="text" class="form-control" placeholder="Nombre usuario... " formControlName="userName" required>
+                                                <input type="text" class="form-control" placeholder="Usuario" formControlName="userName" required>
                                             </div>
                                         </div>
                                         <div class="form-group has-default">
@@ -81,7 +80,7 @@
                                                         <i class="material-icons">lock_outline</i>
                                                     </span>
                                                 </div>
-                                                <input type="password" placeholder="Contraseña..." class="form-control" formControlName="password" required>
+                                                <input type="password" placeholder="Contraseña" class="form-control" formControlName="password" required>
                                             </div>
                                         </div>
 
@@ -118,14 +117,10 @@
                 <nav class="pull-left">
                     <ul>
                         <li>
-                            <a href="#">
-                                PayPerPallet
-                            </a>
+                            
                         </li>
                         <li>
-                            <a href="#">
-                                Documentación
-                            </a>
+                       
                         </li>
 
                     </ul>

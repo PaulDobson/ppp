@@ -27,7 +27,7 @@ export interface ChildrenItems {
 //Menu Items
 export const ROUTES: RouteInfo[] = [{
         path: '/inicio',
-        title: 'Panel Control',
+        title: 'Bienvenido',
         type: 'link',
         icontype: 'dashboard'
     },{

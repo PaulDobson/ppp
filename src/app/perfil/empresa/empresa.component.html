@@ -30,7 +30,6 @@
                      
                       <mat-form-field class="width-70">
                         <input matInput type="email" placeholder="Correo electrónico Empresa DTE" formControlName="CorreoElectronicoEmpresa" required>
-                        <mat-error *ngIf="perfilGroup.get('CorreoElectronicoEmpresa').invalid">Debe ingresar un correo válido</mat-error>
                       </mat-form-field>
                   
                   </div>
@@ -163,67 +162,12 @@
     
       </div>
 
-      <div class="row">
-        <div class="col-md-12">
-          <div class="card">
-            <div class="card-header card-header-icon card-header-info">
-              <div class="card-icon">
-                <i class="material-icons">account_balance</i>
-              </div>
-              <h4 class="card-title">Datos Bancarios
-                <small class="category"></small>
-              </h4>
-            </div>
-            <div class="card-body">
+    
 
-              <div class="row">
-                <div class="col-md-6">
-                <mat-form-field  class="width-70" >
-                  <mat-label>Banco</mat-label>
-                  <mat-select required formControlName="Banco" >
-                    <mat-option>--</mat-option>
-                    <mat-option *ngFor="let banco of listadoBancos" [value]="banco.CodBanco">
-                      {{banco.DescripcionBanco}}
-                    </mat-option>
-                  </mat-select>
-  
-                </mat-form-field>
-                </div>
+      <button *ngIf="crearCaso"  type="submit"  mat-flat-button color="primary" class="pull-right" >Ingresar Solicitud</button>
+      <button *ngIf="!crearCaso" type="submit"  mat-flat-button color="primary" class="pull-right" >Actualizar Datos</button>
 
-                <div class="col-md-6">
-                 
-                    <mat-form-field class="width-70">
-                      <input matInput type="text" placeholder="Número de Cuenta" formControlName="NumerodeCuenta" required>
-                    </mat-form-field>
-                
-                </div>
 
-                <div class="col-md-6">
-                 
-                 
-                    <mat-form-field  class="width-70" >
-                      <mat-label>Tipo de Cuenta</mat-label>
-                      <mat-select required formControlName="TipodeCuenta"  >
-                        <mat-option>--</mat-option>
-                        <mat-option *ngFor="let cuenta of listadoCuentas" [value]="cuenta.CodTipodeCuenta">
-                          {{cuenta.DescTipodeCuenta}}
-                        </mat-option>
-                      </mat-select>
-      
-                    </mat-form-field>
-                
-              
-              </div>
-
-            </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <button *ngIf="crearCaso" mat-raised-button type="submit" class="btn btn-info pull-right">Ingresar Solicitud</button>
-      <button mat-raised-button *ngIf="!crearCaso" type="submit"  class="btn btn-primary pull-right">Actualizar Datos</button>
       <!-- form-->
     </form>
     </div>

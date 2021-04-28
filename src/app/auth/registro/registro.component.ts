@@ -68,7 +68,7 @@ export class RegistroComponent implements OnInit {
 
       this.authService.createUser( user ).subscribe( response=>{
         Swal.close();
-        console.log(response);
+       
         if( response.ok ){
 
           let idUsuario = response.mensaje;

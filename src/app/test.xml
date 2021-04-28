@@ -1,0 +1,16 @@
+<xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ControlDeAlmacenaje">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="NumerodeTramosaSolicit" type="xs:integer" />
+        <xs:element minOccurs="0" maxOccurs="1" name="NumerodeCaso" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="FechaHoraCorte" type="xs:dateTime" />
+        <xs:element minOccurs="0" maxOccurs="1" name="OrdendeRetiro" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="FechaHoraRetiro" type="xs:dateTime" />
+        <xs:element minOccurs="0" maxOccurs="1" name="OrdendeIngreso" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="FechaHoraIngreso" type="xs:dateTime" />
+        <xs:element minOccurs="0" maxOccurs="1" name="CodigoQR" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

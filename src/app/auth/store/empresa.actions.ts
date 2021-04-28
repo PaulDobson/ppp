@@ -1,5 +1,5 @@
 import { createAction, props } from '@ngrx/store';
-import { EmpresaAsociada, Usuario } from '../../models/User.models';
+import { EmpresaAsociada } from '../../models/entidades.bizagi.models';
 
 export const setEmpresa = createAction(
     '[Auth] setEmpresa',

@@ -24,7 +24,7 @@ export class BizagiService {
       setTimeout(() => {
         observer.next(true);
         observer.complete();
-      }, 2000);
+      }, 3000);
     }else{
       observer.next(true);
       observer.complete();
@@ -44,6 +44,7 @@ export class BizagiService {
     }
 
   }  );
+
   async init(){
     console.log('init Soap service');
     this.initWorkflowenginesoa();
@@ -91,6 +92,7 @@ export class BizagiService {
   }
 
   getEntities(entityName: string, filter?:string){
+
     var body = {
       entitiesInfo: `<![CDATA[<BizAgiWSParam><EntityData><EntityName>${entityName}</EntityName></EntityData></BizAgiWSParam>]]>`,
     };
@@ -128,7 +130,7 @@ export class BizagiService {
 
   performActivity(idCase:string,taskId:string){
     const body = {
-      activityInfo: `<![CDATA[<BizAgiWSParam><domain>${environment.domain}</domain><userName>${environment.usuario_creador_caso}</userName><ActivityData><idCase>${idCase}</idCase><taskId>${taskId}</taskId></ActivityData></BizAgiWSParam>]]>`,
+      activityInfo: `<![CDATA[<BizAgiWSParam><domain>${environment.domain}</domain><userName>${environment.usuario_creador_caso}</userName><ActivityData><radNumber>${idCase}</radNumber><taskName>${taskId}</taskName></ActivityData></BizAgiWSParam>]]>`,
     };
     return this.clientWF.call( 'performActivityAsString', body ).pipe(
       map(  (respuesta)=>{
@@ -159,14 +161,33 @@ export class BizagiService {
     )
   }
 
+  crearCasoSolicitudIngreso(xml: string) {
+    const body = {
+      casesInfo: `<![CDATA[${xml}]]>`,
+    };
+
+    return this.clientWF.call('createCasesAsString', body ).pipe(
+      map(  (respuesta)=>{
+        const message = respuesta.result.createCasesAsStringResult;
+        let json: any[] = txml.parse(message);
+        let jsonPrsed: any = txml.simplify(json);
+         
+        return jsonPrsed;
+      } ) 
+    )
+  }
+
   
- 
+  actualizarDatosEmpresa(casoBizagi: CasoBizagi ){
+    return this.saveEntity( casoBizagi.toXMLSaveEntity() );
+  }
+
   saveEntity(entities:string ){
     const body = {
       entityInfo: `<![CDATA[<BizAgiWSParam><Entities>${entities}</Entities></BizAgiWSParam>]]>`,
     };
 
-    console.log( body );
+    
     return this.clientEM.call( 'saveEntityAsString' , body ).pipe(
       map(  (respuesta)=>{
         const message = respuesta.result.saveEntityAsStringResult;
@@ -180,5 +201,22 @@ export class BizagiService {
   }
 
 
+  saveEntityCase(entities:string ){
+    const body = {
+      entityInfo: `<![CDATA[${entities}]]>`,
+    };
+
+
+    return this.clientEM.call( 'saveEntityAsString' , body ).pipe(
+      map(  (respuesta)=>{
+        const message = respuesta.result.saveEntityAsStringResult;
+        let json: any[] = txml.parse( message );
+        let jsonParsed:any = txml.simplify(json);
+        return jsonParsed;
+      } )
+
+    );
+
+  }
 
 }

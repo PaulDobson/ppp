@@ -1,36 +1,383 @@
-
-<div *ngIf="!habilitado" class="main-content">
+<div *ngIf="!habilitado  " class="main-content">
     <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header card-header-icon card-header-danger">
+                        <div class="card-icon">
+                            <i class="material-icons">pending_actions</i>
+                        </div>
+                        <h4 class="card-title">En espera de aprobación</h4>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h5 class="card-subtitle mb-2 text-muted">Validación de Enrolamiento</h5>
+                        <p class="card-text">Su proceso de enrolamiento está en curso. Una vez que tengamos la
+                            aprobación usted podrá realizar esta actividad</p>
+                        <a href="#" class="card-link">Le notificaremos en breves momentos al correo registrado en el
+                            portal</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ 
+<div *ngIf="habilitado && vistaMainPanel " class="main-content">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 mr-auto ml-auto">
+            <div class="card card-pricing ">
+              <h6 class="card-category"> Solicitud de ingreso</h6>
+              <div class="card-body">
+                <div class="card-icon icon-warning ">
+                  <i class="material-icons">dashboard_customize</i>
+                </div>
+                <p class="card-description">Crea una nueva solicitud de ingreso</p>
+              </div>
+              <div class="card-footer justify-content-center ">
+                <a  *ngIf="(loading$ | async) ==false" class="btn btn-round btn-warning" [routerLink]=''  (click)="crearSolicitudIngreso()" >Crear Solicitud</a>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
+
+<div class="loader" *ngIf="loading$ | async">
+    <svg class="circular" viewBox="25 25 50 50">
+        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+    </svg>
+</div>
+
+ 
+ <div *ngIf="habilitado && !vistaMainPanel  " class="main-content"> 
+    <!-- <div class="main-content"> -->
+    <div class="container-fluid">
+ 
+        <h2>  Solicitud de registro en curso <b>{{CasoEnCursoControlAlmacenaje.NumerodeCaso}}</b>  </h2>
+        
+        <div class="row">
+           
+            <div class="col col-lg-4 col-md-4 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-header card-header-warning card-header-icon">
+                        <div class="card-icon">
+                            <i class="material-icons">content_copy</i>
+                        </div>
+                        <p class="card-category">Altura Base 1.0</p>
+                        <h3 class="card-title">{{disponibleBase}}
+                            <small>disponible</small>
+                        </h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="stats">
+                            <i class="material-icons text-danger">update</i>
+                            <span>actualizado: {{fechaActualizacion | date:"HH:mm" }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-lg-4 col-md-4 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-header card-header-warning card-header-icon">
+                        <div class="card-icon">
+                            <i class="material-icons">content_copy</i>
+                        </div>
+                        <p class="card-category">Altura Media 1.5</p>
+                        <h3 class="card-title">{{disponibleMedia}}
+                            <small>disponible</small>
+                        </h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="stats">
+                            <i class="material-icons text-danger">update</i>
+                            <span>actualizado: {{fechaActualizacion | date:"HH:mm" }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-lg-4 col-md-4 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-header card-header-warning card-header-icon">
+                        <div class="card-icon">
+                            <i class="material-icons">content_copy</i>
+                        </div>
+                        <p class="card-category">Altura Máxima 1.8</p>
+                        <h3 class="card-title">{{disponibleMaxima}}
+                            <small>disponible</small>
+                        </h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="stats">
+                            <i class="material-icons text-danger">update</i>
+                            <span>actualizado: {{fechaActualizacion | date:"HH:mm" }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
 
 
         <div class="row">
-            <div class="col-md-8">
-        <div class="card" >
-            <div class="card-header card-header-icon card-header-danger">
-                <div class="card-icon">
-                    <i class="material-icons">pending_actions</i>
-                  </div>
-                <h4 class="card-title">En espera de aprobación</h4>
-              
-            </div>
+            <div class="col col-lg-12 col-sm-12 col-md-12">
 
-            <div class="card-body">
- 
-              <h5 class="card-subtitle mb-2 text-muted">Validación de Enrolamiento</h5>
-              <p class="card-text">Su proceso de enrolamiento está en curso. Una vez que tengamos la aprobación usted podrá realizar esta actividad</p>
-              <a href="#" class="card-link">Le notificaremos en breves momentos al correo registrado en el portal</a>
+                <mat-expansion-panel expanded='true' >
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Reserva de posiciones
+                        </mat-panel-title>
+                        <mat-panel-description>
+                            &nbsp;
+                        </mat-panel-description>
+                    </mat-expansion-panel-header>
+                    <div class="row" *ngIf="listadoReservas.length==0">
+                        <div class="col col-sm-12">
+                            <small>Aun no ha reservado sus posiciones</small>
+                        </div>
+                   </div>
+
+                   <mat-divider *ngIf="listadoReservas.length==0"></mat-divider>
+
+                   <div class="row" *ngIf="listadoReservas.length>0">
+                    <div class="col col-sm-12">
+                        
+                        <table mat-table [dataSource]="datasourceReservaPosiciones"  class="mat-elevation-z2 tabla-ppp">
+        
+                            <!-- Position Column -->
+                            <ng-container matColumnDef="estandar">
+                              <th mat-header-cell *matHeaderCellDef mat-header>Estándar </th>
+                              <td mat-cell *matCellDef="let element"> {{element.DescStandar}} </td>
+
+                              <td mat-footer-cell *matFooterCellDef>  &nbsp; </td>
+                            </ng-container>
+                          
+                            <!-- Name Column -->
+                            <ng-container matColumnDef="tarifa">
+                              <th mat-header-cell *matHeaderCellDef mat-header> Tarifa </th>
+                              <td mat-cell *matCellDef="let element"> {{element.DescTipoTarifa}}</td>
+
+
+                              <td mat-footer-cell *matFooterCellDef>  &nbsp; </td>
+                            </ng-container>
+                          
+                            <!-- Weight Column -->
+                            <ng-container matColumnDef="cantidad">
+                              <th mat-header-cell *matHeaderCellDef mat-header> Cantidad </th>
+                              <td mat-cell *matCellDef="let element"> {{element.CantidadRequerida}}</td>
+
+                              <td mat-footer-cell *matFooterCellDef style="padding: 10px;"> {{getCantidadTotal()}} </td>
+
+                            </ng-container>
+                          
+                            <ng-container matColumnDef="observaciones">
+                                <th mat-header-cell *matHeaderCellDef mat-header> Observaciones adicionales </th>
+                                <td mat-cell *matCellDef="let element"> {{element.ObservacionesAdicionales}} </td>
+                                <td mat-footer-cell *matFooterCellDef>  &nbsp; </td>
+                              </ng-container>
+
+                              <ng-container matColumnDef="acciones">
+                                <th mat-header-cell *matHeaderCellDef mat-header style="text-align: right;" > Acciones </th>
+                                <td mat-cell *matCellDef="let element" style="text-align: right;">    
+                                    <button mat-icon-button aria-label="Editar reserva"  (click)="editarReserva(element)"  > <mat-icon>edit</mat-icon> </button> 
+                                    <button mat-icon-button color="warn" (click)="eliminarReserva(element)" aria-label="Editar reserva"> <mat-icon>delete</mat-icon> </button> 
+                                </td>
+                                <td mat-footer-cell *matFooterCellDef>  &nbsp; </td>
+                              </ng-container>
+        
+                            <tr mat-header-row *matHeaderRowDef="displayedColumnsReserva"></tr>
+                            <tr mat-row *matRowDef="let row; columns: displayedColumnsReserva;"></tr>
+                            <tr mat-footer-row *matFooterRowDef="displayedColumnsReserva" class="first-footer-row"></tr>
+                          </table>
+        
+                          <br>
+        
+                    </div>
+                </div>
+
+                   <br>
+                    <div class="row">
+                        <div class="col col-sm-12 pull-right">
+                            <button mat-mini-fab color="accent"  matTooltip="Click aquí para reservar posiciones" aria-label="Ingresar Posicion" (click)="showReservaPosicion()" [disabled]="listadoReservas.length > 0"  >
+                                <mat-icon>add</mat-icon>
+                              </button>
+                        </div>
+                    </div>
+                </mat-expansion-panel>
             </div>
-          </div>
         </div>
-    </div>
+
+     
+
+        <br>
+    
+        <div class="row">
+            <div class="col col-lg-12 col-sm-12 col-md-12">
+                <mat-expansion-panel expanded='true' >
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Configurar condiciones 
+                        </mat-panel-title>
+                        <mat-panel-description>
+                            &nbsp;
+                        </mat-panel-description>
+                    </mat-expansion-panel-header>
+ 
+                   
+                        <div class="row">
+     
+
+                            <div class="col-md-6">
+                                <div style="margin-top: 10px;">
+                                    <label id="example-radio-group-label" >¿Contiene material peligroso?</label>
+                                    <mat-radio-group   [formControl]="checkMaterialPeligrosoFormControl" aria-labelledby="material peligroso radio Butom" class="example-radio-group">
+                                      <mat-radio-button class="example-radio-button" value="1" >Si</mat-radio-button>
+                                      <mat-radio-button class="example-radio-button" value="0">No</mat-radio-button>
+                                    </mat-radio-group>
+                                  </div>
+                            </div>
+
+
+                        </div>
+                        <div class="row">
+           
+                            <div class="col-md-6">
+                                <mat-form-field class="width-70">
+                                    <mat-label>Fecha Ingreso</mat-label>
+                                    <input matInput [formControl]="selectDiaPagoFormControl"
+                                    (dateChange)="addEvent('change', $event)"
+                                    [matDatepicker]="pFechaIngreso" required readonly [min]="minDateReserva"/>
+                                    <mat-datepicker-toggle matSuffix [for]="pFechaIngreso"></mat-datepicker-toggle>
+                                    <mat-datepicker #pFechaIngreso color="primary" disabled="false"></mat-datepicker>
+                                   
+                                  </mat-form-field>
+                                </div>
+
+                        </div>
+
+
+                    <div class="row" *ngIf="diaDespachoSeleccionado!=null &&  listadoReservas.length > 0">
+                        <div class="col-md-12">
+
+                            <div class="alert alert-info alert-with-icon" data-notify="container">
+                                <i class="material-icons" data-notify="icon">notifications</i>
+                                <span data-notify="icon" class="now-ui-icons ui-1_bell-53"></span>
+                                <span data-notify="message">De acuerdo a la cantidad de ubicaciones requeridas, debe seleccionar {{cantidadTramos}} rango(s) de horario </span>
+                              </div>
+ 
+                        </div>
+                        <div class="col col-sm-12">
+                            <table mat-table [dataSource]="datasourceTramosHoras" matSort class="mat-elevation-z2 tabla-ppp" >
+                                <ng-container matColumnDef="horaDisponible">
+                                  <th mat-header-cell *matHeaderCellDef mat-header> Horas disponibles </th>
+                                  <td mat-cell *matCellDef="let element"> {{element.Tramo}} </td>
+                                </ng-container>
+                                <ng-container matColumnDef="fechaIngreso">
+                                  <th mat-header-cell *matHeaderCellDef mat-header> Fecha de ingreso </th>
+                                  <td mat-cell *matCellDef="let element">  {{diaDespachoSeleccionado | date:'dd-MM-yyyy'}}  </td>
+                                </ng-container>
+                                <ng-container matColumnDef="reservar">
+                                  <th mat-header-cell *matHeaderCellDef style="text-align: center;" mat-header> Reservar </th>
+                                  <td mat-cell *matCellDef="let element" style="text-align: center;" >  <mat-checkbox   [disabled]="!element.activo||false" [checked]="element.seleccionado||false" (change)="changeChecbox(element,$event.checked)">  </mat-checkbox> </td>
+                                </ng-container>
+
+            
+                                <tr mat-header-row *matHeaderRowDef="displayedColumnsTramoHoras"></tr>
+                                <tr mat-row *matRowDef="let row; columns: displayedColumnsTramoHoras;"></tr>
+                              </table> 
+                        </div>
+                    </div>
+                </mat-expansion-panel>
+            </div>
+        </div>
+
+        <br>
+
+
+        <div class="row">
+            <div class="col col-lg-12 col-sm-12 col-md-12">
+                <mat-expansion-panel expanded='true' >
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Datos de facturación
+                        </mat-panel-title>
+                        <mat-panel-description>
+                            &nbsp;
+                        </mat-panel-description>
+                    </mat-expansion-panel-header>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <mat-form-field  class="width-70" >
+                                <mat-label>Tipo de pago</mat-label>
+                                <mat-select required [formControl]="selectTipoPagoFormControl" >
+                                  <mat-option>--</mat-option>
+                                  <mat-option *ngFor="let tipoPago of listadoTipoPago" [value]="tipoPago.Cod">
+                                    {{tipoPago.Descripcion}}
+                                  </mat-option>
+                                </mat-select>
+                
+                              </mat-form-field>
+                        </div>
+                        <div class="col-md-6">
+
+                            <mat-form-field  class="width-70" >
+                                <mat-label>Banco</mat-label>
+                                <mat-select required [formControl]="selectBancoFormControl" >
+                                  <mat-option>--</mat-option>
+                                  <mat-option *ngFor="let banco of listadoBancos" [value]="banco.CodBanco">
+                                    {{banco.DescripcionBanco}}
+                                  </mat-option>
+                                </mat-select>
+                
+                              </mat-form-field>
+
+                        </div>
+                    </div>   
+
+                    <div class="row">
+                     
+                        <div class="col-md-6">
+
+                            <mat-form-field  class="width-70" >
+                                <mat-label>Tipo de Cuenta</mat-label>
+                                <mat-select required [formControl]="selectTipodeCuentaFormControl"  >
+                                  <mat-option>--</mat-option>
+                                  <mat-option *ngFor="let cuenta of listadoCuentas" [value]="cuenta.CodTipodeCuenta">
+                                    {{cuenta.DescTipodeCuenta}}
+                                  </mat-option>
+                                </mat-select>
+                
+                              </mat-form-field>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            <mat-form-field class="width-70">
+                                <input matInput type="text" placeholder="Número de Cuenta" [formControl]="NumerodeCuenta" required>
+                              </mat-form-field>
+                        </div>
+
+                    </div>   
+                    
+      
+                </mat-expansion-panel>
+            </div>
+        </div>
+        
+        <br>
+
+        <div class="row">
+            <div class="col col-lg-12 col-sm-12 col-md-12">
+                <button mat-flat-button color="primary" class="pull-right"  (click)="confirmarReserva()" >Confirmar Reserva</button>
+            </div>
+        </div>
+ 
     </div>
 </div>
-
-
-<div *ngIf="habilitado" class="main-content">
-    <div class="container-fluid">
-
-   
-
-    </div>
-</div>
+ 

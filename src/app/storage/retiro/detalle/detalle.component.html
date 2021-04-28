@@ -1,0 +1,170 @@
+<h3>Listado de Pallets para el Caso {{numeroCaso}}</h3>
+
+<div class="row">
+    <div class="col col-sm-12">
+        <button type="button" (click)="volverMenuInicio()" color="accent" class="btn btn-sm btn-sm pull-right" style="margin-top: -25px;"> Volver</button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col col-sm-12">
+         <mat-expansion-panel expanded>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    Listado de Pallets
+                </mat-panel-title>
+                <mat-panel-description>
+                    Selección para retiro
+                    <mat-icon>list</mat-icon>
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+
+            <table mat-table [dataSource]="datasourcePallets" class="mat-elevation-z2 tabla-ppp">
+
+                <!-- Position Column -->
+                <ng-container matColumnDef="bodega">
+                    <th mat-header-cell *matHeaderCellDef mat-header>Bodega</th>
+                    <td mat-cell *matCellDef="let element"> {{element.Bodega}} </td>
+
+                </ng-container>
+
+                <!-- Name Column -->
+                <ng-container matColumnDef="pallet">
+                    <th mat-header-cell *matHeaderCellDef mat-header>Código Pallet</th>
+                    <td mat-cell *matCellDef="let element"> {{element.CodPallet }}
+                    </td>
+
+                </ng-container>
+
+                <!-- Weight Column -->
+                <ng-container matColumnDef="fisica">
+                    <th mat-header-cell *matHeaderCellDef mat-header> Código ubicación física </th>
+                    <td mat-cell *matCellDef="let element">{{element.CodigoUbicacionFisica }}
+                    </td>
+                </ng-container>
+
+                <ng-container matColumnDef="estandar">
+                    <th mat-header-cell *matHeaderCellDef mat-header style="text-align: center;"> Estandar de la ubicación </th>
+                    <td mat-cell *matCellDef="let element" style="text-align: center;">{{element.DescEstandar }}
+                    </td>
+                </ng-container>
+
+
+                <ng-container matColumnDef="estado">
+                    <th mat-header-cell *matHeaderCellDef mat-header  style="text-align: center;" > Estado de la ubicación </th>
+                    <td mat-cell *matCellDef="let element" style="text-align: center;">  {{element.DescEstadoUbicacion }}
+                    </td>
+                </ng-container>
+
+
+                <ng-container matColumnDef="seleccion">
+                    <th mat-header-cell *matHeaderCellDef mat-header style="text-align: center;"> Selección </th>
+                    <td mat-cell *matCellDef="let element" style="text-align: center;">
+                        <mat-checkbox (change)="changeCheckboxPallet(element,$event.checked)" [disabled]="element.CodEstadoUbicacion =='003' "  [checked]="element.CodEstadoUbicacion =='003' " > </mat-checkbox>
+                    </td>
+
+                </ng-container>
+
+
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+            </table>
+
+            <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+
+        </mat-expansion-panel>
+
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col col-sm-12">
+        <div class="card">
+            <div class="card-header card-header-icon card-header-info">
+                <div class="card-icon">
+                    <i class="material-icons">pending_actions</i>
+                </div>
+                <h4 class="card-title">Configurar Condiciones</h4>
+
+            </div>
+            <div class="card-body">
+
+                <div class="row">
+           
+                    <div class="col-md-6">
+                        <mat-form-field class="width-70">
+                            <mat-label>Fecha Ingreso</mat-label>
+                            <input matInput readonly  value="{{fechaIngreso| date:'dd-MM-yyyy'}}" > 
+                          
+           
+                          </mat-form-field>
+                        </div>
+
+                </div>
+
+                <div class="row">
+           
+                    <div class="col-md-6">
+                        <mat-form-field class="width-70">
+                            <mat-label>Fecha Retiro</mat-label>
+                            <input matInput 
+                            (dateChange)="addEvent('change', $event)"
+                            [matDatepicker]="pFechaRetiro"  readonly [min]="minDateReserva" required/>
+                            <mat-datepicker-toggle matSuffix [for]="pFechaRetiro"   ></mat-datepicker-toggle>
+                            <mat-datepicker #pFechaRetiro color="primary" disabled="false" ></mat-datepicker>
+                           
+                          </mat-form-field>
+                        </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col col-sm-12">
+                          <div class="row" *ngIf="diaRetiroSeleccionado!=null && cantidadPalletsSeleccionados > 0 ">
+                                        <div class="col-md-12">
+                
+                                            <div class="alert alert-info alert-with-icon" data-notify="container">
+                                                <i class="material-icons" data-notify="icon">notifications</i>
+                                                <span data-notify="icon" class="now-ui-icons ui-1_bell-53"></span>
+                                                <span data-notify="message">De acuerdo a la cantidad de pallets seleccionados para retiro, debe indicar {{cantidadTramos}} rango(s) de horario </span>
+                                              </div>
+                 
+                                        </div>
+                                        <div class="col col-sm-12">
+                                            <table mat-table [dataSource]="datasourceTramosHoras" matSort class="mat-elevation-z2 tabla-ppp" >
+                                                <ng-container matColumnDef="horaDisponible">
+                                                  <th mat-header-cell *matHeaderCellDef mat-header> Horas disponibles </th>
+                                                  <td mat-cell *matCellDef="let element"> {{element.Tramo}} </td>
+                                                </ng-container>
+                                                <ng-container matColumnDef="fechaIngreso">
+                                                  <th mat-header-cell *matHeaderCellDef mat-header> Fecha de Retiro </th>
+                                                  <td mat-cell *matCellDef="let element">  {{diaDespachoSeleccionado | date:'dd-MM-yyyy'}}  </td>
+                                                </ng-container>
+                                                <ng-container matColumnDef="reservar">
+                                                  <th mat-header-cell *matHeaderCellDef style="text-align: center;" mat-header> Reservar </th>
+                                                  <td mat-cell *matCellDef="let element" style="text-align: center;" >  <mat-checkbox   [disabled]="!element.activo||false" [checked]="element.seleccionado||false" (change)="changeChecbox(element,$event.checked)">  </mat-checkbox> </td>
+                                                </ng-container>
+                
+                            
+                                                <tr mat-header-row *matHeaderRowDef="displayedColumnsTramoHoras"></tr>
+                                                <tr mat-row *matRowDef="let row; columns: displayedColumnsTramoHoras;"></tr>
+                                              </table> 
+                                        </div>
+                                    </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<div class="row">
+    <div class="col col-lg-12 col-sm-12 col-md-12">
+        <button mat-flat-button color="primary" class="pull-right"  (click)="confirmarRetiro()" >Confirmar Retiro</button>
+    </div>
+</div>

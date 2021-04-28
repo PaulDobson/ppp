@@ -24,14 +24,97 @@
                 </div>
             </div>
         </div>
+
+
     </div>
 </div>
 
-
-<div *ngIf="habilitado" class="main-content">
+<!--  *ngIf="loading$ | async" -->
+<div class="main-content">
     <div class="container-fluid">
 
+        <div *ngIf="loading$ | async">
+            <div class="loader">
+                <svg class="circular" viewBox="25 25 50 50">
+                    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+                </svg>
+            </div>
+            <h4>Cargando información. espere un momento por favor.</h4>
+        </div>
 
+        <div *ngIf="habilitado && (loading$ | async)==false">
+            <div  *ngIf="!visualizarDetalle" >
+            <h2> Listado de casos para gestión de <b>Retiro</b> </h2>
+
+            <div class="card" *ngIf="listadoCasosDisponibleRetiro.length==0">
+
+                <div class="card-body" >
+                    <div class="row">
+                        <div class="col col-sm-12">
+                            <h3>No hay casos disponibles para gestionar retiros.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" *ngIf="listadoCasosDisponibleRetiro.length>0">
+                <div class="col col-sm-12">
+                    <table mat-table [dataSource]="datasourceCasosDisponibles" class="mat-elevation-z2 tabla-ppp">
+
+                        <!-- Position Column -->
+                        <ng-container matColumnDef="caso">
+                            <th mat-header-cell *matHeaderCellDef mat-header>Nº Caso</th>
+                            <td mat-cell *matCellDef="let element">  <a [routerLink]="[element._attributes.key]"> {{element.NumerodeCaso}} </a>  </td>
+
+                        </ng-container>
+
+                        <!-- Name Column -->
+                        <ng-container matColumnDef="FechaHoraIngreso">
+                            <th mat-header-cell *matHeaderCellDef mat-header> Fecha Ingreso </th>
+                            <td mat-cell *matCellDef="let element"> {{element.FechaHoraIngreso | date:'dd-MM-yyyy'}}
+                            </td>
+
+                        </ng-container>
+
+                        <!-- Weight Column -->
+                        <ng-container matColumnDef="cantidad_inicial">
+                            <th mat-header-cell *matHeaderCellDef mat-header> Cantidad </th>
+                            <td mat-cell *matCellDef="let element">
+
+                                {{getTotalPallets(element)}}</td>
+                        </ng-container>
+
+   
+                        <ng-container matColumnDef="observaciones">
+                            <th mat-header-cell *matHeaderCellDef mat-header> Observaciones </th>
+                            <td mat-cell *matCellDef="let element">
+                                {{element.ReservadePosiciones.ReservadePosiciones.ObservacionesAdicionales}} </td>
+
+                        </ng-container>
+
+                        <ng-container matColumnDef="acciones">
+                            <th mat-header-cell *matHeaderCellDef mat-header style="text-align: center;"> Seleccionar </th>
+                            <td mat-cell *matCellDef="let element" style="text-align: center;"> <a mat-icon-button [routerLink]="[element.NumerodeCaso]" >  <mat-icon style="color: rgb(209, 118, 6);">open_in_new</mat-icon> </a>
+                                 </td>
+
+                        </ng-container>
+
+                        <tr mat-header-row *matHeaderRowDef="displayedColumnsCasos"></tr>
+                        <tr mat-row *matRowDef="let row; columns: displayedColumnsCasos;"></tr>
+
+                    </table>
+
+                    <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+                </div>
+            </div>
+  
+        </div>
+        <router-outlet></router-outlet>
+
+        </div>
+        
 
     </div>
+
+
 </div>

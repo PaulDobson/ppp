@@ -1,12 +1,12 @@
 import { createReducer, on } from '@ngrx/store';
 import { setEmpresa, unSetEmpresa } from './empresa.actions';
-import { EmpresaAsociada } from '../../models/User.models';
+import { EmpresaAsociada } from '../../models/entidades.bizagi.models';
 
-export interface State {
+export interface EmpresaState {
     empresa: EmpresaAsociada; 
 }
 
-export const initialState: State = {
+export const initialState: EmpresaState = {
    empresa: null,
 }
 

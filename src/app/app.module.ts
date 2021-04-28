@@ -1,10 +1,10 @@
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { APP_BASE_HREF } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { CommonModule ,DatePipe} from '@angular/common';
+import { CommonModule ,DatePipe,registerLocaleData} from '@angular/common';
 
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatButtonModule} from '@angular/material/button';
@@ -60,6 +60,8 @@ import { EmpresaComponent } from './perfil/empresa/empresa.component';
 import { EffectsModule } from '@ngrx/effects';
 import { EffectsArray } from './index-effects';
 
+import localeCL from '@angular/common/locales/es-CL';
+registerLocaleData(localeCL, 'es-cl');
 @NgModule({
   exports: [
     MatAutocompleteModule,
@@ -130,6 +132,7 @@ export class MaterialModule {}
     providers : [
       MatNativeDateModule,
       DatePipe,
+      { provide: LOCALE_ID, useValue: 'es-cl' } 
     ],
     bootstrap:    [ AppComponent ]
 })

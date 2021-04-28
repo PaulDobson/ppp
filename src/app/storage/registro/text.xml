@@ -1,0 +1,2788 @@
+<BizAgiWSResponse>
+    <Entities>
+        <NewUbicaciones key="4">
+            <CodigoUbicacionFisica>A1E2D1C000001</CodigoUbicacionFisica>
+            <DescUbicacion>A1E2D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="2">
+                <DescEstandar>Altura Media 1.3</DescEstandar>
+                <CodEstandar>E2</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>1</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="6">
+            <CodigoUbicacionFisica>A1E1D1C000002</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>2</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="8">
+            <CodigoUbicacionFisica>A1E1D1C000003</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>3</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="15">
+            <CodigoUbicacionFisica>A1E1D1C000004</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>4</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="17">
+            <CodigoUbicacionFisica>A1E1D1C000005</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>5</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="19">
+            <CodigoUbicacionFisica>A1E1D1C000006</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>6</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="21">
+            <CodigoUbicacionFisica>A1E1D1C000007</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>7</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="23">
+            <CodigoUbicacionFisica>A1E1D1C000008</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>8</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="25">
+            <CodigoUbicacionFisica>A1E1D1C000009</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>9</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="27">
+            <CodigoUbicacionFisica>A1E1D1C000010</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>10</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="29">
+            <CodigoUbicacionFisica>A1E2D1C000011</CodigoUbicacionFisica>
+            <DescUbicacion>A1E2D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="2">
+                <DescEstandar>Altura Media 1.3</DescEstandar>
+                <CodEstandar>E2</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>11</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="33">
+            <CodigoUbicacionFisica>A1E1D1C000012</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>12</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="35">
+            <CodigoUbicacionFisica>A1E1D1C000013</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>13</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="37">
+            <CodigoUbicacionFisica>A1E1D1C000014</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>14</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="39">
+            <CodigoUbicacionFisica>A1E1D1C000015</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>15</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="41">
+            <CodigoUbicacionFisica>A1E1D1C000016</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>16</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="43">
+            <CodigoUbicacionFisica>A1E1D1C000017</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>17</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="45">
+            <CodigoUbicacionFisica>A1E1D1C000018</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>18</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="47">
+            <CodigoUbicacionFisica>A1E1D1C000019</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>19</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="49">
+            <CodigoUbicacionFisica>A1E1D1C000020</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>20</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="53">
+            <CodigoUbicacionFisica>A1E1D1C000021</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>21</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="55">
+            <CodigoUbicacionFisica>A1E1D1C000022</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>22</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="57">
+            <CodigoUbicacionFisica>A1E1D1C000023</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>23</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="61">
+            <CodigoUbicacionFisica>A1E1D1C000024</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>24</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="63">
+            <CodigoUbicacionFisica>A1E1D1C000025</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>25</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="65">
+            <CodigoUbicacionFisica>A1E1D1C000026</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>26</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="67">
+            <CodigoUbicacionFisica>A1E1D1C000027</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>27</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="69">
+            <CodigoUbicacionFisica>A1E1D1C000028</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>28</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="71">
+            <CodigoUbicacionFisica>A1E1D1C000029</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>29</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="75">
+            <CodigoUbicacionFisica>A1E1D1C000030</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>30</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="77">
+            <CodigoUbicacionFisica>A1E1I2C000031</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1I2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>31</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="79">
+            <CodigoUbicacionFisica>A1E1I2C000032</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1I2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>32</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="83">
+            <CodigoUbicacionFisica>A1E1I2C000033</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1I2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>33</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="85">
+            <CodigoUbicacionFisica>A1E1I2C000034</CodigoUbicacionFisica>
+            <DescUbicacion>A1E1I2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="1">
+                <DescBodega>Bodega A</DescBodega>
+                <CodBodega>A</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>34</CodUbicacion>
+            <Nave entityName="Naves" key="1">
+                <CodigodeNave>1</CodigodeNave>
+                <NombredelaNave>A01</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="87">
+            <CodigoUbicacionFisica>B3E1D1C000035</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>35</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="89">
+            <CodigoUbicacionFisica>B3E1D1C000036</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>36</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="91">
+            <CodigoUbicacionFisica>B3E1I1C000037</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1I1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>37</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="93">
+            <CodigoUbicacionFisica>B3E1I1C000038</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1I1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>38</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="95">
+            <CodigoUbicacionFisica>B3E1I1C000039</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1I1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>39</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="97">
+            <CodigoUbicacionFisica>B3E1I1C000040</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1I1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>40</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="99">
+            <CodigoUbicacionFisica>B3E1I1C000041</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1I1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>41</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="101">
+            <CodigoUbicacionFisica>B3E1I1C000042</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1I1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>42</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="103">
+            <CodigoUbicacionFisica>B3E1I1C000043</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1I1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>43</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="105">
+            <CodigoUbicacionFisica>B3E1I1C000044</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1I1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>44</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="109">
+            <CodigoUbicacionFisica>B3E1I2C000045</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1I2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>45</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="111">
+            <CodigoUbicacionFisica>B3E1I2C000046</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1I2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>46</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="113">
+            <CodigoUbicacionFisica>B3E1I2C000047</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1I2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>47</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="115">
+            <CodigoUbicacionFisica>B3E1I2C000048</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1I2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>48</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="117">
+            <CodigoUbicacionFisica>B3E1I2C000049</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1I2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>49</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="119">
+            <CodigoUbicacionFisica>B3E1I2C000050</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1I2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>50</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="121">
+            <CodigoUbicacionFisica>B3E1D1C000051</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>51</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="123">
+            <CodigoUbicacionFisica>B3E1D1C000052</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>52</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="125">
+            <CodigoUbicacionFisica>B3E1D1C000053</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>53</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="127">
+            <CodigoUbicacionFisica>B3E1D1C000054</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>54</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="129">
+            <CodigoUbicacionFisica>B3E1D1C000055</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>55</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="131">
+            <CodigoUbicacionFisica>B3E1D1C000056</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>56</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="133">
+            <CodigoUbicacionFisica>B3E1D1C000057</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>57</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="135">
+            <CodigoUbicacionFisica>B3E1D1C000058</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>58</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="137">
+            <CodigoUbicacionFisica>B3E1D1C000059</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>59</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="139">
+            <CodigoUbicacionFisica>B3E1D1C000060</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>60</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="141">
+            <CodigoUbicacionFisica>B3E1D1C000061</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>61</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="143">
+            <CodigoUbicacionFisica>B3E1D1C000062</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>62</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="145">
+            <CodigoUbicacionFisica>B3E1D1C000063</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>63</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="147">
+            <CodigoUbicacionFisica>B3E1D1C000064</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>64</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="149">
+            <CodigoUbicacionFisica>B3E1D1C000065</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>65</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="151">
+            <CodigoUbicacionFisica>B3E1D1C000066</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>66</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="153">
+            <CodigoUbicacionFisica>B3E1I1C000067</CodigoUbicacionFisica>
+            <DescUbicacion>B3E1I1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="2">
+                <DescBodega>Bodega B</DescBodega>
+                <CodBodega>B</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>67</CodUbicacion>
+            <Nave entityName="Naves" key="100">
+                <CodigodeNave>3</CodigodeNave>
+                <NombredelaNave>A03</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="155">
+            <CodigoUbicacionFisica>C4E1I1C000068</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1I1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>68</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="157">
+            <CodigoUbicacionFisica>C4E1I1C000069</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1I1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>69</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="159">
+            <CodigoUbicacionFisica>C4E1I1C000070</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1I1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>70</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="161">
+            <CodigoUbicacionFisica>C4E1I1C000071</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1I1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>71</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="163">
+            <CodigoUbicacionFisica>C4E1I1C000072</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1I1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>72</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="165">
+            <CodigoUbicacionFisica>C4E1I1C000073</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1I1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="2">
+                <CodigoDireccion>B</CodigoDireccion>
+                <NombreDireccion>Lado B</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>73</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="167">
+            <CodigoUbicacionFisica>C4E1D1C000074</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D1</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="1">
+                <CodigoNivel>1</CodigoNivel>
+                <DescripciondelNivel>Piso 1</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>74</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="169">
+            <CodigoUbicacionFisica>C4E1D2C000075</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>75</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="171">
+            <CodigoUbicacionFisica>C4E1D2C000076</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>76</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="173">
+            <CodigoUbicacionFisica>C4E1D2C000077</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>77</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="175">
+            <CodigoUbicacionFisica>C4E1D2C000078</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>78</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="177">
+            <CodigoUbicacionFisica>C4E1D2C000079</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>79</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="179">
+            <CodigoUbicacionFisica>C4E1D2C000080</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>80</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="181">
+            <CodigoUbicacionFisica>C4E1D2C000081</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>81</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="183">
+            <CodigoUbicacionFisica>C4E1D2C000082</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>82</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="185">
+            <CodigoUbicacionFisica>C4E1D2C000083</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>83</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="187">
+            <CodigoUbicacionFisica>C4E1D2C000084</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>84</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="189">
+            <CodigoUbicacionFisica>C4E1D2C000085</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>85</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="191">
+            <CodigoUbicacionFisica>C4E1D2C000086</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>86</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="193">
+            <CodigoUbicacionFisica>C4E1D2C000087</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>87</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="195">
+            <CodigoUbicacionFisica>C4E1D2C000088</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>88</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="197">
+            <CodigoUbicacionFisica>C4E1D2C000089</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>89</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="199">
+            <CodigoUbicacionFisica>C4E1D2C000090</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>90</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="201">
+            <CodigoUbicacionFisica>C4E1D2C000091</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>91</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="203">
+            <CodigoUbicacionFisica>C4E1D2C000093</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>93</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="205">
+            <CodigoUbicacionFisica>C4E1D2C000094</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>94</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="207">
+            <CodigoUbicacionFisica>C4E1D2C000095</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>95</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="209">
+            <CodigoUbicacionFisica>C4E1D2C000096</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>96</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+        <NewUbicaciones key="211">
+            <CodigoUbicacionFisica>C4E1D2C000097</CodigoUbicacionFisica>
+            <DescUbicacion>C4E1D2</DescUbicacion>
+            <EstadodelaUbicacion entityName="EstadodelaUbicacion" key="1">
+                <CodEstado>001</CodEstado>
+                <DescripcionEstado>Disponible</DescripcionEstado>
+            </EstadodelaUbicacion>
+            <Bodega entityName="Bodega" key="3">
+                <DescBodega>Bodega C</DescBodega>
+                <CodBodega>C</CodBodega>
+            </Bodega>
+            <Direccion entityName="Direccion" key="1">
+                <CodigoDireccion>A</CodigoDireccion>
+                <NombreDireccion>Lado A</NombreDireccion>
+            </Direccion>
+            <Nivel entityName="Nivel" key="2">
+                <CodigoNivel>2</CodigoNivel>
+                <DescripciondelNivel>Piso 2</DescripciondelNivel>
+            </Nivel>
+            <EstandardelaUbicacion entityName="EstandardelaUbicacion" key="1">
+                <DescEstandar>Altura Base 1.2</DescEstandar>
+                <CodEstandar>E1</CodEstandar>
+            </EstandardelaUbicacion>
+            <CodUbicacion>97</CodUbicacion>
+            <Nave entityName="Naves" key="101">
+                <CodigodeNave>4</CodigodeNave>
+                <NombredelaNave>A04</NombredelaNave>
+            </Nave>
+        </NewUbicaciones>
+    </Entities>
+</BizAgiWSResponse>

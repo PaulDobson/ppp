@@ -1,22 +1,39 @@
 
 <div class="wrapper wrapper-full-page">
-    <div class="page-header login-page header-filter"  filter-color="black" style="background-image: url('./assets/img/fondo.webp'); background-size: cover; background-position: top center;">
+    <div class="page-header login-page header-filter"  filter-color="black" >
       <!--   you can change the color of the filter page using: data-color="blue | purple | green | orange | red | rose " -->
       <div class="container">
         <div class="row">
           <div class="col-lg-5 col-md-5 col-sm-6 ml-auto mr-auto">
             <form class="form" [formGroup]= "loginGroup" (ngSubmit)="login()" autocomplete="off" >
-              <div class="card card-login card-hidden">
+              <div class="card card-login">
+
+                <!-- 
                 <div class="card-header card-header-warning text-center">
                   
                   <div class="social-line">
-                    <img src="./assets/img/logo-ppp.png">
+                    <img src="./assets/img/logo-ppp-oficial.jpeg" width="110px">
               
                   </div>
                   <h4 class="card-title"> <b> Ingreso al portal </b></h4>
                 </div>
+                -->
                 <div class="card-body text-center">
+
+                  <div class="row">
+                    <div class="col col-sm-12">
+                      <img   style="margin-top: -50px;" src="./assets/img/logo-ppp-oficial.jpeg" width="150px">
+                    </div>
+ 
+                  </div>
+                  <br>
+                  <div class="row">
+                  <div class="col col-sm-12">
+                    <h3 class="card-title"> <b> Ingreso al portal </b></h3>
+                  </div>
+                  </div>
                  
+                  <br>
                     <span class="bmd-form-group">
                       <div class="input-group">
                         <div class="input-group-prepend">
@@ -24,7 +41,7 @@
                             <i class="material-icons">fingerprint</i>
                           </span>
                         </div>
-                        <input type="text" class="form-control" placeholder="nombre usuario..." formControlName="userName" required>
+                        <input type="text" class="form-control" placeholder="Usuario" formControlName="userName" required>
                       </div>
                     </span>
 
@@ -35,7 +52,7 @@
                             <i class="material-icons">lock_outline</i>
                           </span>
                         </div>
-                        <input type="password" class="form-control" placeholder="Password..." formControlName="password" required>
+                        <input type="password" class="form-control" placeholder="Contraseña" formControlName="password" required>
                       </div>
                     </span>
   
@@ -44,7 +61,7 @@
                   <button   [disabled]="loginGroup.invalid" type="submit" class="btn btn-primary btn-round mt-4">Ingresar</button>
                   <br>
                   <br>
-                  No tienes una cuenta?, <a  [routerLink]="['/auth/registro']">   <b>Registrate aquí</b> <i class="material-icons">person_add</i> </a>
+                  ¿No tienes una cuenta? <a  [routerLink]="['/auth/registro']">   <b>¡Registrate aquí!</b> <i class="material-icons">person_add</i> </a>
                 </div>
                 <div class="card-footer">
                  &nbsp;
@@ -69,14 +86,10 @@
           <nav class="pull-left">
             <ul>
               <li>
-                <a href="#">
-                  PayPerPallet
-                </a>
+               
               </li>
               <li>
-                <a href="#">
-                  Documentación
-                </a>
+             
               </li>
  
             </ul>
